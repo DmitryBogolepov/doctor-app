@@ -1,0 +1,261 @@
+.about-me {
+  background-color: #FFEDD2;
+  padding: 80px 0;
+}
+.about-me .container {
+  display: flex;
+  justify-content: center;
+}
+.about-me-main-title {
+  text-align: center;
+  font-size: 36px;
+}
+h1,
+h2 {
+  font-size: 26px;
+  font-family: "Romul", sans-serif;
+  margin-bottom: 50px;
+  color: #294122;
+}
+.left-block {
+  width: 500px;
+  background-color: transparent;
+  padding: 15px;
+  border-radius: 10px;
+}
+.left-title {
+  font-size: 32px;
+  margin-bottom: 18px;
+  color: #294122;
+}
+.left-second-title {
+  font-size: 22px;
+  margin-bottom: 18px;
+  color: #294122;
+}
+.left-second-title span {
+  font-weight: 600;
+}
+.left-text {
+  width: 415px;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: justify;
+  color: #294122;
+}
+.divider {
+  border-bottom: 1px solid #294122;
+  margin: 18px 0;
+}
+.right-block img {
+  width: 360px;
+  height: 550px;
+  margin-left: 80px;
+  -webkit-box-shadow: 4px 4px 30px 0 rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 4px 4px 30px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 4px 4px 30px 0 rgba(0, 0, 0, 0.4);
+}
+.education {
+  padding: 80px 0;
+  background-color: #FFEDD2;
+}
+.education-slider {
+  margin: 0 auto;
+  width: 670px !important;
+  display: flex;
+  justify-content: center;
+}
+.my-diploma {
+  text-align: center;
+  font-size: 36px;
+}
+.slick-track {
+  width: 14700px !important;
+}
+.slider-img {
+  width: 670px !important;
+  height: 520px;
+  margin: 0 auto;
+}
+.custom-next svg,
+.custom-prev svg {
+  width: 50px;
+  height: 50px;
+  fill: #020202;
+}
+.custom-next,
+.custom-prev {
+  position: absolute;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  z-index: 10;
+  bottom: 35%;
+}
+.custom-prev {
+  left: -50px;
+}
+.custom-next {
+  right: -50px;
+}
+.second-text {
+  margin: 0 auto 5px auto;
+  width: 670px;
+  color: #3F3F3F;
+  font-size: 14px;
+  text-align: end;
+}
+
+@media screen and (max-width: 960px) {
+  .right-block img {
+    width: 340px;
+    height: 480px;
+    margin-left: 40px;
+  }
+  .left-block {
+    width: 350px;
+  }
+  .left-title {
+    font-size: 22px;
+  }
+  .left-second-title {
+    font-size: 17px;
+  }
+  .left-text {
+    font-size: 14px;
+  }
+  .divider {
+    display: none;
+  }
+}
+@media screen and (max-width: 780px) {
+  .slider-img {
+    width: 500px !important;
+    height: auto;
+    margin: 0 auto;
+  }
+  .education-slider {
+    margin: 0 auto;
+    width: 500px !important;
+    display: flex;
+    justify-content: center;
+  }
+  .second-text {
+    width: 500px;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 710px) {
+  .about-me .container {
+    flex-direction: column;
+  }
+  .left-block {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .left-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  .left-second-title {
+    font-size: 19px;
+    margin-bottom: 20px;
+  }
+  .right-block {
+    margin: 50px auto 0 auto;
+  }
+  .left-text {
+    font-size: 18px;
+    width: 470px;
+    text-align: justify;
+    margin: 0 auto;
+  }
+  .right-block img {
+    margin-left: 0;
+    width: 380px;
+    height: 550px;
+  }
+}
+@media screen and (max-width: 630px) {
+  .slider-img {
+    width: 400px !important;
+  }
+  .education-slider {
+    width: 400px !important;
+  }
+  .second-text {
+    width: 400px;
+  }
+  .custom-next svg,
+  .custom-prev svg {
+    width: 30px;
+    height: 30px;
+  }
+  .custom-next {
+    right: -30px;
+  }
+  .custom-prev {
+    left: -25px;
+  }
+}
+@media screen and (max-width: 510px) {
+  h1,
+  h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  .left-block {
+    width: 400px;
+    box-sizing: border-box;
+  }
+  .left-text {
+    font-size: 17px;
+    width: 355px;
+    text-align: center;
+  }
+  .left-title {
+    font-size: 21px;
+    margin-bottom: 15px;
+  }
+  .left-second-title {
+    font-size: 21px;
+    margin-bottom: 20px;
+  }
+  .right-block img {
+    margin-left: 0;
+    width: 280px;
+    height: 400px;
+  }
+  .slider-img {
+    width: 280px !important;
+  }
+  .education-slider {
+    width: 280px !important;
+  }
+  .second-text {
+    width: 280px;
+    font-size: 10px;
+    text-align: center;
+  }
+  .custom-next {
+    right: -20px;
+  }
+  .custom-prev {
+    left: -20px;
+  }
+  .slider-img {
+    height: 260px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .left-block {
+    width: 300px;
+  }
+  .left-text {
+    width: 275px;
+  }
+}
